@@ -42,7 +42,7 @@ GameObject:
   - component: {fileID: 114355689286170506}
   m_Layer: 0
   m_Name: CameraArm
-  m_TagString: Untagged
+  m_TagString: MainCamera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -127,7 +127,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c7b26ccac11fa0478c4f098568ec19c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
 --- !u!114 &114519689074928452
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -152,6 +151,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 76d66d2fd72b80b4fab009c9ca7a0a95, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  walkCursor: {fileID: 2800000, guid: 6dc6a191c92d3194da38aca13f4923c7, type: 3}
+  attackCursor: {fileID: 2800000, guid: 9de253b205946be48941437657751cac, type: 3}
+  unknownCursor: {fileID: 2800000, guid: 5735b6a60c0af634984d29337d381e4f, type: 3}
+  cursorHotspot: {x: 96, y: 96}
 --- !u!124 &124118438347505356
 Behaviour:
   m_ObjectHideFlags: 1
